@@ -1,5 +1,5 @@
 package stub.purple;
 
 public class test {
-ㅎㅇ
+ 테스트
 }
