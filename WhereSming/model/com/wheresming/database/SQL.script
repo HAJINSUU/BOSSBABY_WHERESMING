@@ -1,0 +1,24 @@
+@CommentMapper
+Sequence number.
+script info.
+add script String.
+
+@MemberMapper
+Sequence number.
+script info.
+add script String.
+
+@MovieMapper
+Sequence number.
+script info.
+add script String.
+
+@SearchMapper
+Sequence number.
+script info.
+add script String.
+
+@WishListMapper
+Sequence number.
+script info.
+add script String.

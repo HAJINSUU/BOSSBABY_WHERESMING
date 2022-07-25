@@ -1,0 +1,24 @@
+@CommentMapper
+Mapper's Sequence number. 
+Mapper String.
+add info.
+
+@MemberMapper
+Mapper's Sequence number. 
+Mapper String.
+add info.
+
+@MovieMapper
+Mapper's Sequence number. 
+Mapper String.
+add info.
+
+@SearchMapper
+Mapper's Sequence number. 
+Mapper String.
+add info.
+
+@WishListMapper
+Mapper's Sequence number. 
+Mapper String.
+add info.
