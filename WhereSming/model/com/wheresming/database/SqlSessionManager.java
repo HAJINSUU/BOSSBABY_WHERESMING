@@ -7,6 +7,7 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
+// 세션매니저
 public class SqlSessionManager {
 	public static SqlSessionFactory sqlSession;
 	static {
