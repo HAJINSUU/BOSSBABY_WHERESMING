@@ -8,6 +8,9 @@
 </head>
 <body>
 	<p>Hello World!</p>
+<<<<<<< HEAD
+=======
 	<p>Hello World!</p>
 </body>
+>>>>>>> branch 'wheresming' of https://github.com/HAJINSUU/BOSSBABY_WHERESMING.git
 </html>
