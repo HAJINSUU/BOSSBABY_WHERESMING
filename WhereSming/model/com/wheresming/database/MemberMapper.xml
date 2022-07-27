@@ -2,7 +2,13 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.smhrd.model.DAO">
-	<insert id="insert" parameterType="com.wheresming.database.">	
-			insert into t_member values(#{mb_id},#{mb_pw},#{mb_nick},#{mb_email}#{mb_joindate},#{mb_type})
+<mapper namespace="com.wheresming.member.SinginDAO">
+	<insert id="insert" parameterType="com.wheresming.database.MemberDTO">	
+	insert into t_member values(#{mb_id},#{mb_pw},#{mb_nick},#{mb_email}#{mb_joindate},#{mb_type})
 	</insert>
+	
+	<select id = "select" parameterType="com.wheresming.database.MemberDTO" resultType="String">
+	select name from t_member where mb_id=#{mb_id} and mb_pw=#{mb_pw}
+	</select>
+
+</mapper>
