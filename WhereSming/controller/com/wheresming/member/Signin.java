@@ -10,13 +10,13 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class Singin
  */
-public class Singin extends HttpServlet {
+public class Signin extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Singin() {
+    public Signin() {
         super();
         // TODO Auto-generated constructor stub
     }

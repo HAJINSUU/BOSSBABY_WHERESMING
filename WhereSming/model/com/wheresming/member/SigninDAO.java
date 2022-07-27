@@ -1,5 +1,5 @@
 package com.wheresming.member;
 
-public class SinginDAO {
+public class SigninDAO {
 
 }

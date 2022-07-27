@@ -11,10 +11,10 @@
   	<servlet-class>com.wheresming.member.Login</servlet-class>
   </servlet>
   <servlet>
-  	<servlet-name>Singin</servlet-name>
-  	<display-name>Singin</display-name>
+  	<servlet-name>Signin</servlet-name>
+  	<display-name>Signin</display-name>
   	<description></description>
-  	<servlet-class>com.wheresming.member.Singin</servlet-class>
+  	<servlet-class>com.wheresming.member.Signin</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>Logout</servlet-name>
@@ -29,10 +29,10 @@
   	<servlet-class>com.wheresming.member.MyPage</servlet-class>
   </servlet>
   <servlet>
-  	<servlet-name>EditAccount</servlet-name>
-  	<display-name>EditAccount</display-name>
+  	<servlet-name>InfoEdit</servlet-name>
+  	<display-name>InfoEdit</display-name>
   	<description></description>
-  	<servlet-class>com.wheresming.account.EditAccount</servlet-class>
+  	<servlet-class>com.wheresming.member.InfoEdit</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>RemoveMember</servlet-name>
@@ -59,20 +59,20 @@
   	<servlet-class>com.wheresming.pick.DeletePick</servlet-class>
   </servlet>
   <servlet>
-  	<servlet-name>DropList</servlet-name>
-  	<display-name>DropList</display-name>
+  	<servlet-name>DropPickList</servlet-name>
+  	<display-name>DropPickList</display-name>
   	<description></description>
-  	<servlet-class>com.wheresming.pick.DropList</servlet-class>
+  	<servlet-class>com.wheresming.pick.DropPickList</servlet-class>
   </servlet>
   <servlet>
-  	<servlet-name>UploadList</servlet-name>
-  	<display-name>UploadList</display-name>
+  	<servlet-name>UploadPickList</servlet-name>
+  	<display-name>UploadPickList</display-name>
   	<description></description>
-  	<servlet-class>com.wheresming.pick.UploadList</servlet-class>
+  	<servlet-class>com.wheresming.pick.UploadPickList</servlet-class>
   </servlet>
   <servlet>
-  	<servlet-name>EditList</servlet-name>
-  	<display-name>EditList</display-name>
+  	<servlet-name>EditPickList</servlet-name>
+  	<display-name>EditPickList</display-name>
   	<description></description>
   	<servlet-class>com.wheresming.pick.EditList</servlet-class>
   </servlet>
