@@ -226,7 +226,7 @@ a:hover {
 
 	<!-- ---------- -->
 	<!-- for form container -->
-<form action="LoginTrue" method="post">
+<form action="Login" method="post">
 	<div class="container">
 		<h2>Login</h2>
 
@@ -240,7 +240,7 @@ a:hover {
 					type="password" name="pw" id="pass" placeholder="password">
 			</div>
 
-			<button type="submit" value="LoginTrue">LOGIN</button>
+			<button type="submit" value="Login">LOGIN</button>
 			
 			<p></p>
 			<p>

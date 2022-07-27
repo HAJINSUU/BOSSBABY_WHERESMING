@@ -8,25 +8,25 @@
   	<servlet-name>Login</servlet-name>
   	<display-name>Login</display-name>
   	<description></description>
-  	<servlet-class>com.wheresming.account.Login</servlet-class>
+  	<servlet-class>com.wheresming.member.Login</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>Singin</servlet-name>
   	<display-name>Singin</display-name>
   	<description></description>
-  	<servlet-class>com.wheresming.account.Singin</servlet-class>
+  	<servlet-class>com.wheresming.member.Singin</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>Logout</servlet-name>
   	<display-name>Logout</display-name>
   	<description></description>
-  	<servlet-class>com.wheresming.account.Logout</servlet-class>
+  	<servlet-class>com.wheresming.member.Logout</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>MyPage</servlet-name>
   	<display-name>MyPage</display-name>
   	<description></description>
-  	<servlet-class>com.wheresming.account.MyPage</servlet-class>
+  	<servlet-class>com.wheresming.member.MyPage</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>EditAccount</servlet-name>
