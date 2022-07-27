@@ -1,5 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
 <style type="text/css">
 body {
 	padding: 0;
@@ -9,7 +15,7 @@ body {
 }
 
 .background {
-	background-image: url('./movie_image.jpg');
+	background-image: url('./assets/images/movie_image.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color:rgba(0, 0, 0, 0.5);
@@ -192,15 +198,9 @@ a:hover {
 	rel="stylesheet">
 
 <title>Login form</title>
-
-
-
 </head>
-
-
-
 <body>
-  
+	 
   <!-- ***** Logo Start ***** -->
   <a href="index.html" class="logo">
     Where?Sming
@@ -240,19 +240,15 @@ a:hover {
 					type="password" name="pw" id="pass" placeholder="password">
 			</div>
 
-			<button type="submit">LOGIN</button>
+			<button type="submit" value="LogIn">LOGIN</button>
+		</form>
+			
 			<p></p>
 			<p>
 				WhereSming 회원이 아닌가요? <a href="join.html"> 회원가입하러가기</a><br><br>
 				<a href="join.html">비밀번호를 잊어버리셨나요?</a>
 			</p>
 		
-		</form>
 	</div>
 </body>
-
-
 </html>
-
-
-
