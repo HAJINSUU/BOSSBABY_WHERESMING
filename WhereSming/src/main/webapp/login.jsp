@@ -226,9 +226,9 @@ a:hover {
 
 	<!-- ---------- -->
 	<!-- for form container -->
+<form action="LoginTrue" method="post">
 	<div class="container">
 		<h2>Login</h2>
-		<form action="Login" method="post">
 
 			<div class="form-item">
 				<span class="material-icons-outlined"> account_circle </span> <input
@@ -240,8 +240,7 @@ a:hover {
 					type="password" name="pw" id="pass" placeholder="password">
 			</div>
 
-			<button type="submit" value="LogIn">LOGIN</button>
-		</form>
+			<button type="submit" value="LoginTrue">LOGIN</button>
 			
 			<p></p>
 			<p>
@@ -250,5 +249,6 @@ a:hover {
 			</p>
 		
 	</div>
+</form>
 </body>
 </html>
