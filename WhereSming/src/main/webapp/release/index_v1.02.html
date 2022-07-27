@@ -1,4 +1,4 @@
-=<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -20,56 +20,58 @@
   <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
   <link rel="stylesheet" href="assets/css/owl.css">
   <link rel="stylesheet" href="assets/css/lightbox.css">
-  <!--
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-TemplateMo 569 Edu Meeting
-
-https://templatemo.com/tm-569-edu-meeting
-
--->
 </head>
 
-
 <body>
-111
-  
-  
+  <!-- 채팅 -->
+  <script>
+    (function (d, w, c) {
+      w.ChatraID = '3zJ5EQxB9BkR7jn2J';
+      var s = d.createElement('script');
+      w[c] = w[c] || function () {
+        (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+    })(document, window, 'Chatra');
+  </script>
+  <!-- 채팅끝 -->
+
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
     <div class="container">
-      
       <div class="row">
         <div class="col-12">
-
-          
           <nav class="main-nav">
-            
+                      
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
               Where?Sming
             </a>
-            
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
-
-
             <ul class="nav">
-              <li class="search"> 
-                              <!--검색창 시작 -->
-                                    <div class="container2">
-                                        <input type="text" placeholder="영화검색">
-                                        <input type="button" value="search" onClick="location.href='movie.html'"> 
-                                      </form>
-                                  </div>
-                                <!--검색창 끝 -->
-              </li>
-              <li class="scroll-to-section"><a href="index.html" class="active">첫화면</a></li>
-              <li class="picks"><a href="picks.html" >pick!</a></li>
-              <li class="login"><a href="login.html" >로그인</a></li>
+
+ <!-- 검색창시작 -->
+ <li class="search">
+  <div class="search-box">
+    <input class="search-txt" type="text" placeholder="검색어를 입력해 주세요">
+    <button class="search-btn" type="submit">
+      <i class="fas fa-search"></i>
+    </button>
+  </div>
+</li> 
+<!-- 검색창끝 -->
+              <li class="picks"><a href="picks.html">pick!</a></li>
+              <li class="login"><a href="login.html">로그인</a></li>
 
             </ul>
             <a class='menu-trigger'>
-
               <span>Menu</span>
             </a>
             <!-- ***** Menu End ***** -->
@@ -80,28 +82,22 @@ https://templatemo.com/tm-569-edu-meeting
   </header>
   <!-- ***** Header Area End ***** -->
 
-  <!-- ***** 영상부분***** -->
-  <section class="section main-banner" id="top" data-section="section1" style="height:1013px">
-    
-
-
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="section main-banner" id="top" data-section="section1">
     <video autoplay muted loop id="bg-video">
+    
       <source src="assets/images/top.mp4" type="video/mp4" />
     </video>
 
 
-   
   </section>
   <!-- ***** Main Banner Area End ***** -->
 
-  
-
-  <section class="services" style="height:300px">
+  <section class="services">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="owl-service-item owl-carousel">
-
             <div class="item">
               <div class="icon">
                 <img src="assets/images/service-icon-01.png" alt="">
@@ -122,9 +118,6 @@ https://templatemo.com/tm-569-edu-meeting
               </div>
             </div>
 
-
-
-            
             <div class="item">
               <div class="icon">
                 <img src="assets/images/service-icon-03.png" alt="">
@@ -155,18 +148,19 @@ https://templatemo.com/tm-569-edu-meeting
               </div>
             </div>
 
-
           </div>
         </div>
       </div>
     </div>
+
+    <div class="footer">
+      <br>
+      <p>Copyright © 2022 BossBaby, Ltd. All Rights Reserved. 
+          <br>
+          Design, Distibuted By: <a>BossBaby</a>
+        </p>
+    </div>
   </section>
-
- 
-  
-  
-
-
 
 
 
@@ -174,6 +168,7 @@ https://templatemo.com/tm-569-edu-meeting
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
   <script src="assets/js/isotope.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/lightbox.js"></script>
